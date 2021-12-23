@@ -1,0 +1,78 @@
+header{
+    width: 50%;
+    height: 60px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    margin-left: 450px;
+    flex-wrap: wrap;
+    padding: 0 40px;
+    box-shadow: 2px 3px 15px rgb(2, 2, 2);
+    border-bottom: 1px solid #ccc;
+    border-top: 5px solid #000000;
+    
+}
+header a{
+    color: black;
+    text-transform: uppercase;
+    
+    
+    
+}
+header ul li{
+    
+    display: inline-block;
+    padding: 10px 20px;
+    opacity: 0.7;
+    
+}
+header ul li:hover{
+    opacity: 1;
+    
+    
+}
+
+header ul li img{
+    width: 30px;
+    height: 30px;
+    transform: translateY(10px);
+    border-radius: 50%;
+}
+
+/* --------- Dropdown ---------- */
+.drop-nav{
+    position: relative;
+    padding: 10px 0;
+    
+}
+.drop-nav a{
+    text-transform: capitalize;
+    overflow: hidden;
+}
+.drop-nav .dropdown{
+    position: absolute;
+    background: #ffffff;
+    width: 100%;
+    width: calc(100% + 50px);
+    top: 50px;
+    display: none;
+    
+}
+.drop-nav .dropdown li{
+    display: block;
+    
+}
+.drop-nav:hover .dropdown{
+    display: block;
+}
+
+
+
+strong{
+    color: violet;
+}
+
+
+
